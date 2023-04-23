@@ -1,31 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">index.html
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LIWENS' Assignment(Lists)</title>
+    <title>LIWENS' life</title>
+    <link rel="stylesheet" href="../css/style.css">
+    
 </head>
 
 <body>
-    <header>
-        <h1>LIWENS' assignment(Lists):</h1>
+    <header id="header">
+        <h1>LIWENS' life</h1>
+        <nav>
+            <span>
+                current page : Life lists
+            </span>
+            <ul>
+                <li><a href="../index.html">Index</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li>
-                <a href="../index.html">Index</a>
-            </li>
-        </ul>
-    </nav>
     <hr>
-    <ol>
-        <li>
-           <a href="./foods.html"> <h2>Favorite foods list -></h2></a>
-        </li>
-        <li>
-            <h2>Todo list （hover on each task to show up notes）</h2>
+    <main id="grid" >
+        <section id="foods">
+            <h2>Favorite foods</h2>
+            <ul>
+                <li>
+                    <h3>steak </h3>
+                    <img src="https://th.bing.com/th/id/OIP.Ytt18POZ5DK30KyaMuWe3AHaFj?w=255&h=191&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                        width="300em">
+                </li>
+                <li>
+                    <h3>toasted lamb leg </h3>
+                    <img src="https://th.bing.com/th/id/OIP.CFtcZYKl4yyh2B2m8YKgsgHaE8?pid=ImgDet&rs=1" >
+                </li>
+                <li>
+                    <h3>shredded spicy chicken</h3>
+                    <img src="https://th.bing.com/th/id/OIP.LSdNi5Ij6LB_4gz5qTyPowHaEp?pid=ImgDet&rs=1" >
+                </li>
+                <li>
+                    <h3>shrimp with tomato and fried egg </h3>
+                    <img src="https://th.bing.com/th/id/R.2a344694cafca73cdcad820f24a818d4?rik=RmoVF6EA0GJStg&
+                        riu=http%3a%2f%2fs91283473.onlinehome.us%2ftwfood%2fwp-content%2fuploads%2f2010%2f11%2f
+                        Stir_Fried_Shrimp_with_Eggs.jpg&ehk=BuuFVkbnb0d9n64w%2fy0%2brER9wmtnOwqzzRuHod3Hc84%3d
+                        &risl=&pid=ImgRaw&r=0" >
+                </li>
+                <li>
+                    <h3>beef stew with potato</h3>
+                    <img src="https://th.bing.com/th/id/OIP.8E03P5xe-pfACR4xDaFlEgHaE8?pid=ImgDet&rs=1" >
+                </li>
+        
+            </ul>
+        </section>
+        <section >
+            <h2>Todo <i style="font-size: 1rem;">（hover）</i> </h2>
             <ol>
                 <li title="Note : go to library">learn network knowledge from cisco forum</li>
                 <li title="Note : look through MSN">review HTML fundational knowledge</li>
@@ -33,26 +63,26 @@
                 <li title="Note : 100W charge cable for laptop">shopping online on Amazon buy a data cale</li>
                 <li title="Note : ASMR">enjoy Youtube entertainment videos</li>
             </ol>
-        </li>
-        <li>
+        </section >
+        <section >
             <h2>Sites & attractions list</h2>
             <ol>
                 <li>
-                    <b>May-Spain</b>
+                    <h3>May-Spain</h3>
                     <ul>
                         <li><i>Barcelona</i></li>
                         <li><i>Mollorca</i></li>
                     </ul>
                 </li>
                 <li>
-                    <b>June-Morocco</b>
+                    <h3>June-Morocco</h3>
                     <ul>
                         <li><i>sahara desert</i></li>
                         <li><i>Casablanca</i></li>
                     </ul>
                 </li>
                 <li>
-                    <b>july-Italy</b>
+                    <h3>july-Italy</h3>
                     <ul>
                         <li><i> Roma</i></li>
                         <li><i>Napoli</i></li>
@@ -61,13 +91,13 @@
                 </li>
 
             </ol>
-        </li>
-        <li>
-            <h2>Top 5 favorite video
-                games or movies list</h2>
+        </section >
+        <section >
+            <h2>Top 5 video
+                games or movies </h2>
             <ul>
                 <li>
-                    <b>movies</b>
+                    <h3>movies</h3>
                     <ol>
                         <li><i> <a target="_blank" href="https://www.imdb.com/title/tt0111161/">shawshank redemption</a>
                             </i></li>
@@ -78,7 +108,7 @@
                     </ol>
                 </li>
                 <li>
-                    <b>video games</b>
+                    <h3>video games</h3>
                     <ol>
                         <li> <i> <a target="_blank" href="https://www.imdb.com/title/tt0111161/">The Witcher 3</a> </i>
                         </li>
@@ -87,13 +117,15 @@
                     </ol>
                 </li>
             </ul>
-        </li>
-    </ol>
+        </section>
+        <section>
+            <a href="#header">back  to top</a>
+        </section>
+    </main>
     <hr>
-   
     <footer>
         <h3>More Information</h3>
-        <a href="pages/about.html">About</a>&nbsp;&nbsp;&nbsp;&nbsp; |
+        <a href="./about.html">About</a>&nbsp;&nbsp;&nbsp;&nbsp; |
         &nbsp;&nbsp;&nbsp;&nbsp; <a href="https://theuselessweb.com/" target="_blank">Click me</a>
     </footer>
 </body>
